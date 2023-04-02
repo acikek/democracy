@@ -1,8 +1,8 @@
 package net.diamonddev.democracy.network;
 
-import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
+import org.quiltmc.qsl.networking.api.PacketByteBufs;
 
 public class CrashGamePacket {
     public static FriendlyByteBuf write(String string) {

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "net.diamonddev",
+    "id": "democracy",
+    "version": "${version}",
+    "metadata": {
+      "name": "democracy",
+      "description": "bottom text",
+      "contributors": {
+        "DiamondDev": "Owner",
+        "acikek": "Contributor"
+      },
+      "contact": {
+        "homepage": "https://diamonddevv.github.io/",
+        "sources": "https://github.com/diamonddevv/diamonddev-template-mod"
+      },
+      "icon": "assets/democracy/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": "com.diamonddev.democracy.Democracy",
+      "client_init": "com.diamonddev.democracy.client.DemocracyClient"
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": ">=0.18.7"
+      },
+      {
+        "id": "quilted_fabric_api",
+        "versions": ">=1.0.0-"
+      },
+      {
+        "id": "minecraft",
+        "versions": "1.20-alpha.23.13.ab"
+      }
+    ]
+  },
+  "mixin": "example_mod.mixins.json"
+}

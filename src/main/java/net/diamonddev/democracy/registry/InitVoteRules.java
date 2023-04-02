@@ -7,11 +7,11 @@ import net.diamonddev.democracy.network.CrashGamePacket;
 import net.diamonddev.democracy.network.Netcode;
 import net.diamonddev.democracy.network.OpenLinkPacket;
 import net.diamonddev.democracy.rules.DumbOneShotConsumerRule;
-import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.CrashReport;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.voting.rules.Rule;
+import org.quiltmc.qsl.networking.api.ServerPlayNetworking;
 
 public class InitVoteRules {
 
